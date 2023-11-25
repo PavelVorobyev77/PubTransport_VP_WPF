@@ -1,0 +1,20 @@
+﻿<Window x:Class="PubTransport_VP.CreateNewStop"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PubTransport_VP"
+        mc:Ignorable="d"
+        Title="CreateNewStop" Height="244" Width="376">
+    <Grid>
+        <Button Content="Создать остановку" HorizontalAlignment="Center" Margin="0,176,0,0" VerticalAlignment="Top" Click="CreateSt_Click" Height="20" Width="141"/>
+        <Label Content="Павильон (есть или нет):" HorizontalAlignment="Left" Margin="28,129,0,0" VerticalAlignment="Top" Height="25" Width="152"/>
+        <TextBox x:Name="PavTextBox" HorizontalAlignment="Left" Margin="185,132,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155" Height="19"/>
+        <Label Content="ID_Area:" HorizontalAlignment="Left" Margin="28,49,0,0" VerticalAlignment="Top" Height="25" Width="69"/>
+        <Label Content="Остановка:" HorizontalAlignment="Left" Margin="28,89,0,0" VerticalAlignment="Top" Height="25" Width="69"/>
+        <TextBox x:Name="StTextBox" HorizontalAlignment="Center" Margin="0,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="154" Height="19"/>
+        <TextBox x:Name="AreaTextBox" HorizontalAlignment="Center" Margin="0,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="154" Height="19"/>
+        <Label Content="Создать новую остановку" HorizontalAlignment="Left" Margin="19,10,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

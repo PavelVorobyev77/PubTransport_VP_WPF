@@ -1,0 +1,22 @@
+﻿<Window x:Class="PubTransport_VP.ChangeStop"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PubTransport_VP"
+        mc:Ignorable="d"
+        Title="ChangeStop" Height="319" Width="393">
+    <Grid>
+        <Button Content="Изменить остановку" HorizontalAlignment="Left" Margin="120,215,0,0" VerticalAlignment="Top" Click="ChangeSt_Click" Height="20" Width="141"/>
+        <Button Content="Получить данные" HorizontalAlignment="Left" Margin="130,250,0,0" VerticalAlignment="Top" Click="ReadSt_Click" Height="20" Width="118"/>
+        <Label Content="Павильон (есть или нет):" HorizontalAlignment="Left" Margin="31,168,0,0" VerticalAlignment="Top" Height="25" Width="152"/>
+        <TextBox x:Name="PavTextBox" HorizontalAlignment="Left" Margin="188,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155" Height="19"/>
+        <Label Content="ID_Area:" HorizontalAlignment="Left" Margin="31,88,0,0" VerticalAlignment="Top" Height="25" Width="69"/>
+        <Label Content="Остановка:" HorizontalAlignment="Left" Margin="31,128,0,0" VerticalAlignment="Top" Height="25" Width="69"/>
+        <Label Content="ID_Stop:" HorizontalAlignment="Left" Margin="31,53,0,0" VerticalAlignment="Top" Height="25" Width="69"/>
+        <TextBox x:Name="StTextBox" HorizontalAlignment="Left" Margin="105,131,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155" Height="19"/>
+        <TextBox x:Name="AreaTextBox" HorizontalAlignment="Left" Margin="105,91,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155" Height="19"/>
+        <TextBox x:Name="IDStopTextBox" HorizontalAlignment="Left" Margin="105,56,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155" Height="19"/>
+        <Label Content="Изменить остановку" HorizontalAlignment="Left" Margin="19,10,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+    </Grid>
+</Window>

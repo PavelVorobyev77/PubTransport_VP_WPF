@@ -1,0 +1,16 @@
+﻿<Window x:Class="PubTransport_VP.DeleteRoute"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PubTransport_VP"
+        mc:Ignorable="d"
+        Title="DeleteRoute" Height="180" Width="326">
+    <Grid>
+        <Button Content="Удалить номер маршрута" HorizontalAlignment="Left" Margin="76,104,0,0" VerticalAlignment="Top" Click="DeleteRNum_Click" Height="20" Width="174"/>
+        <Label Content="ID_Route_number:" HorizontalAlignment="Left" Margin="21,52,0,0" VerticalAlignment="Top" Height="25" Width="106"/>
+        <TextBox x:Name="IDRNumTextBox" HorizontalAlignment="Left" Margin="132,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155" Height="19"/>
+        <Label Content="Удалить номер маршрута" HorizontalAlignment="Left" Margin="19,10,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

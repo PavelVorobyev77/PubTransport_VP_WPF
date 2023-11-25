@@ -1,0 +1,21 @@
+﻿<Window x:Class="PubTransport_VP.ViewStop"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PubTransport_VP"
+        mc:Ignorable="d"
+        Title="ViewStop" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="DataGridStop" AutoGenerateColumns="False" ItemsSource="{Binding}" Margin="10,10,10,10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Area" Binding="{Binding AreaName}"/>
+                <DataGridTextColumn Header="StopName" Binding="{Binding StopName}"/>
+                <DataGridTextColumn Header="Pavilion" Binding="{Binding Pavilion}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
